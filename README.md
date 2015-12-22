@@ -14,9 +14,11 @@ But I change the code to suit Swift 2.
 
 The most important settings are that two keys should be written in the info.plist:
 
+```xml
 <key>NSLocationAlwaysUsageDescription</key>
 <string>Location services required for iBeacon</string>
 <key>NSLocationWhenInUseUsageDescription</key>
 <string>Location services required for iBeacon</string>
+```
 
 Good luck.
